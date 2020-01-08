@@ -1,21 +1,25 @@
-// Program2_22_Spotlight.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+// name: Lilit Khamalyan
+// date: 01/07/2020
+// Program 2-22: Suppose you earn $6,000 per month and you are allowed to contribute a portion of your gross monthly pay to a retirement plan.
+// You want to determine the amount of your pay that will go into the plan if you contribute 5%, 7%, 10% of your gross wages.
 #include "pch.h"
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+     // variables to hold monthly salary and contribution
+     double monthlySalary = 6000.0;
+     double contribution;
+     // Calculate and display a 5% contribution 
+     contribution = 6000.0 * 0.05;
+     cout << "5% contribution is $" << contribution << " per month." << endl;
+     // Calculate and display a 7% contribution 
+     contribution = 6000.0 * 0.07;
+     cout << "7% contribution is $" << contribution << " per month." << endl;
+     // Calculate and display a 10% contribution 
+     contribution = 6000.0 * 0.1;
+     cout << "10% contribution is $" << contribution << " per month." << endl;
+     system("pause");
+     return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
